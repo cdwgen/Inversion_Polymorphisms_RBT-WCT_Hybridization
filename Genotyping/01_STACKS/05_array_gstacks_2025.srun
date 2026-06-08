@@ -1,0 +1,66 @@
+#!/bin/bash
+#SBATCH --job-name=UMT_gstacks_array   
+#SBATCH --output=stacks_logs/UMT_gstacks_%A_%a.out
+#SBATCH --array=1-33%33
+#SBATCH -c 7
+#SBATCH --mem=40G
+#SBATCH -t 7-0:00
+
+ulimit -n 10000  # Increase the open file limit, just in case
+
+# Set directories
+STACKS_DIR="/mnt/ceph/well0766/UMT_Redband/03_genotyping/01_STACKS/01_All_Samples_2025"
+BAMS_DIR="/mnt/ceph/well0766/UMT_Redband/02_filtered_sorted_BAMS/03_chromosomes"
+LOGS_DIR="${STACKS_DIR}/logs"
+
+# Create directories if they don't exist
+mkdir -p "${STACKS_DIR}/gstacks" "${LOGS_DIR}"
+
+# Load modules
+module load stacks
+
+# Hardcoded commands for each array task
+case $SLURM_ARRAY_TASK_ID in
+    1) CHR="Omy01" ;;
+    2) CHR="Omy02" ;;
+    3) CHR="Omy03" ;;
+    4) CHR="Omy04" ;;
+    5) CHR="Omy05" ;;
+    6) CHR="Omy06" ;;
+    7) CHR="Omy07" ;;
+    8) CHR="Omy08" ;;
+    9) CHR="Omy09" ;;
+    10) CHR="Omy10" ;;
+    11) CHR="Omy11" ;;
+    12) CHR="Omy12" ;;
+    13) CHR="Omy13" ;;
+    14) CHR="Omy14" ;;
+    15) CHR="Omy15" ;;
+    16) CHR="Omy16" ;;
+    17) CHR="Omy17" ;;
+    18) CHR="Omy18" ;;
+    19) CHR="Omy19" ;;
+    20) CHR="Omy20" ;;
+    21) CHR="Omy21" ;;
+    22) CHR="Omy22" ;;
+    23) CHR="Omy23" ;;
+    24) CHR="Omy24" ;;
+    25) CHR="Omy25" ;;
+    26) CHR="Omy26" ;;
+    27) CHR="Omy27" ;;
+    28) CHR="Omy28" ;;
+    29) CHR="Omy30" ;;
+    30) CHR="Omy31" ;;
+    31) CHR="Omy32" ;;
+    32) CHR="OmyMT" ;;
+    33) CHR="OmyY" ;;
+esac
+
+# Run gstacks for the each chromosome
+gstacks -I ${BAMS_DIR}/${CHR}/ \
+        -M ${STACKS_DIR}/popmaps/Popmap_Master_SinglePop.tsv \
+        --model marukihigh \
+        --var-alpha 0.001 \
+        --gt-alpha 0.001 \
+        -t 6 \
+        -O ${STACKS_DIR}/gstacks/${CHR}/ > "${LOGS_DIR}/gstacks_${CHR}.log" 2>&1
