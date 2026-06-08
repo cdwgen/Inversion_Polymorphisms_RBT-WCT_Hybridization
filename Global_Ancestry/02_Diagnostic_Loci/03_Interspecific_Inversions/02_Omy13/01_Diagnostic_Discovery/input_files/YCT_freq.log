@@ -1,0 +1,15 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf ../../../../../01_PCA/04_Interspecific_Inversions/00_input_vcfs/Omy13_all_samples.recode.vcf
+	--keep YCT.txt
+	--freq
+	--out YCT_freq
+
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 102 out of a possible 102 Sites
+Run Time = 2.00 seconds
