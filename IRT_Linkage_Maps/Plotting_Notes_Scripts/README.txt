@@ -1,4 +1,5 @@
-### Plotting population-specific linkage maps
+### Plotting population-specific linkage maps against the Arlee ref genome
+## This was replicated with the other reference genomes of interest
 
 ## First I generated a fasta of all markers for each population-specific map and the global map in excel
 
