@@ -1,0 +1,1 @@
+awk 'NR==FNR {keep[$1]; next} FNR==1 || $1 in keep' samples.txt popmap.txt > popmap_subset.txt

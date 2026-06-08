@@ -1,0 +1,16 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf
+	--keep samples.txt
+	--recode-INFO-all
+	--out WCT_v_CRT
+	--recode
+
+Keeping individuals in 'keep' list
+After filtering, kept 789 out of 3617 Individuals
+Outputting VCF file...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 435.00 seconds

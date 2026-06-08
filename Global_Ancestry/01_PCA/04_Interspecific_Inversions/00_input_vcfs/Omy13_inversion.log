@@ -1,0 +1,20 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/02_remove_CCT/all_RADCap_10x.filtered.noCCT.recode.vcf.gz
+	--chr Omy13
+	--to-bp 28590000
+	--keep samples.txt
+	--recode-INFO-all
+	--out Omy13_inversion
+	--recode
+	--from-bp 25743000
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 2180 out of 3717 Individuals
+Outputting VCF file...
+After filtering, kept 102 out of a possible 190081 Sites
+Run Time = 113.00 seconds

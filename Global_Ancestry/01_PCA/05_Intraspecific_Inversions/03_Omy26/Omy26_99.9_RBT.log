@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf ../../03_IRT_v_CRT/00_PCA/RBT_99.9.recode.vcf
+	--chr Omy26
+	--to-bp 59049000
+	--recode-INFO-all
+	--out Omy26_99.9_RBT
+	--recode
+	--from-bp 49925000
+
+After filtering, kept 1762 out of 1762 Individuals
+Outputting VCF file...
+After filtering, kept 9 out of a possible 190081 Sites
+Run Time = 20.00 seconds

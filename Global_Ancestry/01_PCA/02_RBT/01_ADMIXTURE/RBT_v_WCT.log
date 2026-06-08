@@ -1,0 +1,28 @@
+PLINK v2.00a5.14LM AVX2 Intel (20 Aug 2024)
+Options in effect:
+  --allow-extra-chr
+  --chr-set 32
+  --make-bed
+  --out RBT_v_WCT
+  --vcf RBT_WCT.reannotate.vcf
+
+Hostname: colin.hpc.uidaho.edu
+Working directory: /mnt/ceph/well0766/UMT_Redband/05_global_ancestry/01_STACKS/01_PCA/02_RBT/00_ADMIXTURE
+Start time: Thu Oct  2 01:17:24 2025
+
+Random number seed: 1759393044
+257820 MiB RAM detected, ~250092 available; reserving 128910 MiB for main
+workspace.
+Using up to 48 threads (change this with --threads).
+--vcf: 190081 variants scanned.
+--vcf: RBT_v_WCT-temporary.pgen + RBT_v_WCT-temporary.pvar.zst +
+RBT_v_WCT-temporary.psam written.
+3166 samples (0 females, 0 males, 3166 ambiguous; 3166 founders) loaded from
+RBT_v_WCT-temporary.psam.
+190081 variants loaded from RBT_v_WCT-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing RBT_v_WCT.fam ... done.
+Writing RBT_v_WCT.bim ... done.
+Writing RBT_v_WCT.bed ... done.
+
+End time: Thu Oct  2 01:22:00 2025
