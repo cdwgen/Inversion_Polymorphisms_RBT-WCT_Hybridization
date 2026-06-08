@@ -1,0 +1,3300 @@
+=== Replicate 19 ===
+=== Replicate 19 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_19.txt
+	--weir-fst-pop subsample_WCT_19.txt
+	--keep subsample_RBT_19.txt
+	--keep subsample_WCT_19.txt
+	--out fst_RBTvsWCT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45502
+Weir and Cockerham weighted Fst estimate: 0.85128
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_19.txt
+	--weir-fst-pop subsample_YCT_19.txt
+	--keep subsample_RBT_19.txt
+	--keep subsample_YCT_19.txt
+	--out fst_RBTvsYCT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47124
+Weir and Cockerham weighted Fst estimate: 0.8736
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_19.txt
+	--weir-fst-pop subsample_YCT_19.txt
+	--keep subsample_WCT_19.txt
+	--keep subsample_YCT_19.txt
+	--out fst_WCTvsYCT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54849
+Weir and Cockerham weighted Fst estimate: 0.87357
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_19.txt
+	--freq
+	--out freq_RBT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_19.txt
+	--freq
+	--out freq_WCT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_19.txt
+	--freq
+	--out freq_YCT_19
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+=== Replicate 1 ===
+=== Replicate 1 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_1.txt
+	--weir-fst-pop subsample_WCT_1.txt
+	--keep subsample_RBT_1.txt
+	--keep subsample_WCT_1.txt
+	--out fst_RBTvsWCT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44236
+Weir and Cockerham weighted Fst estimate: 0.84401
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_1.txt
+	--weir-fst-pop subsample_YCT_1.txt
+	--keep subsample_RBT_1.txt
+	--keep subsample_YCT_1.txt
+	--out fst_RBTvsYCT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45832
+Weir and Cockerham weighted Fst estimate: 0.86646
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_1.txt
+	--weir-fst-pop subsample_YCT_1.txt
+	--keep subsample_WCT_1.txt
+	--keep subsample_YCT_1.txt
+	--out fst_WCTvsYCT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55094
+Weir and Cockerham weighted Fst estimate: 0.87412
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_1.txt
+	--freq
+	--out freq_RBT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_1.txt
+	--freq
+	--out freq_WCT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_1.txt
+	--freq
+	--out freq_YCT_1
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 16 ===
+=== Replicate 16 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_16.txt
+	--weir-fst-pop subsample_WCT_16.txt
+	--keep subsample_RBT_16.txt
+	--keep subsample_WCT_16.txt
+	--out fst_RBTvsWCT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44868
+Weir and Cockerham weighted Fst estimate: 0.84859
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_16.txt
+	--weir-fst-pop subsample_YCT_16.txt
+	--keep subsample_RBT_16.txt
+	--keep subsample_YCT_16.txt
+	--out fst_RBTvsYCT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.465
+Weir and Cockerham weighted Fst estimate: 0.87127
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_16.txt
+	--weir-fst-pop subsample_YCT_16.txt
+	--keep subsample_WCT_16.txt
+	--keep subsample_YCT_16.txt
+	--out fst_WCTvsYCT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54674
+Weir and Cockerham weighted Fst estimate: 0.87335
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_16.txt
+	--freq
+	--out freq_RBT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_16.txt
+	--freq
+	--out freq_WCT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_16.txt
+	--freq
+	--out freq_YCT_16
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+=== Replicate 4 ===
+=== Replicate 4 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_4.txt
+	--weir-fst-pop subsample_WCT_4.txt
+	--keep subsample_RBT_4.txt
+	--keep subsample_WCT_4.txt
+	--out fst_RBTvsWCT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48005
+Weir and Cockerham weighted Fst estimate: 0.85526
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_4.txt
+	--weir-fst-pop subsample_YCT_4.txt
+	--keep subsample_RBT_4.txt
+	--keep subsample_YCT_4.txt
+	--out fst_RBTvsYCT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.49823
+Weir and Cockerham weighted Fst estimate: 0.87719
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_4.txt
+	--weir-fst-pop subsample_YCT_4.txt
+	--keep subsample_WCT_4.txt
+	--keep subsample_YCT_4.txt
+	--out fst_WCTvsYCT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54859
+Weir and Cockerham weighted Fst estimate: 0.87456
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_4.txt
+	--freq
+	--out freq_RBT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_4.txt
+	--freq
+	--out freq_WCT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_4.txt
+	--freq
+	--out freq_YCT_4
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+=== Replicate 20 ===
+=== Replicate 20 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_20.txt
+	--weir-fst-pop subsample_WCT_20.txt
+	--keep subsample_RBT_20.txt
+	--keep subsample_WCT_20.txt
+	--out fst_RBTvsWCT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45897
+Weir and Cockerham weighted Fst estimate: 0.85098
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_20.txt
+	--weir-fst-pop subsample_YCT_20.txt
+	--keep subsample_RBT_20.txt
+	--keep subsample_YCT_20.txt
+	--out fst_RBTvsYCT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47187
+Weir and Cockerham weighted Fst estimate: 0.87181
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_20.txt
+	--weir-fst-pop subsample_YCT_20.txt
+	--keep subsample_WCT_20.txt
+	--keep subsample_YCT_20.txt
+	--out fst_WCTvsYCT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.56146
+Weir and Cockerham weighted Fst estimate: 0.87593
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_20.txt
+	--freq
+	--out freq_RBT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_20.txt
+	--freq
+	--out freq_WCT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_20.txt
+	--freq
+	--out freq_YCT_20
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+=== Replicate 12 ===
+=== Replicate 12 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_12.txt
+	--weir-fst-pop subsample_WCT_12.txt
+	--keep subsample_RBT_12.txt
+	--keep subsample_WCT_12.txt
+	--out fst_RBTvsWCT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44853
+Weir and Cockerham weighted Fst estimate: 0.84877
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_12.txt
+	--weir-fst-pop subsample_YCT_12.txt
+	--keep subsample_RBT_12.txt
+	--keep subsample_YCT_12.txt
+	--out fst_RBTvsYCT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46699
+Weir and Cockerham weighted Fst estimate: 0.8711
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_12.txt
+	--weir-fst-pop subsample_YCT_12.txt
+	--keep subsample_WCT_12.txt
+	--keep subsample_YCT_12.txt
+	--out fst_WCTvsYCT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54203
+Weir and Cockerham weighted Fst estimate: 0.87391
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_12.txt
+	--freq
+	--out freq_RBT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_12.txt
+	--freq
+	--out freq_WCT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_12.txt
+	--freq
+	--out freq_YCT_12
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+=== Replicate 5 ===
+=== Replicate 5 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_5.txt
+	--weir-fst-pop subsample_WCT_5.txt
+	--keep subsample_RBT_5.txt
+	--keep subsample_WCT_5.txt
+	--out fst_RBTvsWCT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46282
+Weir and Cockerham weighted Fst estimate: 0.85289
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_5.txt
+	--weir-fst-pop subsample_YCT_5.txt
+	--keep subsample_RBT_5.txt
+	--keep subsample_YCT_5.txt
+	--out fst_RBTvsYCT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48095
+Weir and Cockerham weighted Fst estimate: 0.8751
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_5.txt
+	--weir-fst-pop subsample_YCT_5.txt
+	--keep subsample_WCT_5.txt
+	--keep subsample_YCT_5.txt
+	--out fst_WCTvsYCT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55056
+Weir and Cockerham weighted Fst estimate: 0.87429
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_5.txt
+	--freq
+	--out freq_RBT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_5.txt
+	--freq
+	--out freq_WCT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_5.txt
+	--freq
+	--out freq_YCT_5
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+=== Replicate 10 ===
+=== Replicate 10 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_10.txt
+	--weir-fst-pop subsample_WCT_10.txt
+	--keep subsample_RBT_10.txt
+	--keep subsample_WCT_10.txt
+	--out fst_RBTvsWCT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.43905
+Weir and Cockerham weighted Fst estimate: 0.84453
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_10.txt
+	--weir-fst-pop subsample_YCT_10.txt
+	--keep subsample_RBT_10.txt
+	--keep subsample_YCT_10.txt
+	--out fst_RBTvsYCT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45509
+Weir and Cockerham weighted Fst estimate: 0.86562
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_10.txt
+	--weir-fst-pop subsample_YCT_10.txt
+	--keep subsample_WCT_10.txt
+	--keep subsample_YCT_10.txt
+	--out fst_WCTvsYCT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55683
+Weir and Cockerham weighted Fst estimate: 0.87575
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_10.txt
+	--freq
+	--out freq_RBT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_10.txt
+	--freq
+	--out freq_WCT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_10.txt
+	--freq
+	--out freq_YCT_10
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+=== Replicate 2 ===
+=== Replicate 2 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_2.txt
+	--weir-fst-pop subsample_WCT_2.txt
+	--keep subsample_RBT_2.txt
+	--keep subsample_WCT_2.txt
+	--out fst_RBTvsWCT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44953
+Weir and Cockerham weighted Fst estimate: 0.84541
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_2.txt
+	--weir-fst-pop subsample_YCT_2.txt
+	--keep subsample_RBT_2.txt
+	--keep subsample_YCT_2.txt
+	--out fst_RBTvsYCT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46561
+Weir and Cockerham weighted Fst estimate: 0.86724
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 163.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_2.txt
+	--weir-fst-pop subsample_YCT_2.txt
+	--keep subsample_WCT_2.txt
+	--keep subsample_YCT_2.txt
+	--out fst_WCTvsYCT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55483
+Weir and Cockerham weighted Fst estimate: 0.87505
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_2.txt
+	--freq
+	--out freq_RBT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_2.txt
+	--freq
+	--out freq_WCT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_2.txt
+	--freq
+	--out freq_YCT_2
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+=== Replicate 8 ===
+=== Replicate 8 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_8.txt
+	--weir-fst-pop subsample_WCT_8.txt
+	--keep subsample_RBT_8.txt
+	--keep subsample_WCT_8.txt
+	--out fst_RBTvsWCT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45267
+Weir and Cockerham weighted Fst estimate: 0.85143
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_8.txt
+	--weir-fst-pop subsample_YCT_8.txt
+	--keep subsample_RBT_8.txt
+	--keep subsample_YCT_8.txt
+	--out fst_RBTvsYCT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46974
+Weir and Cockerham weighted Fst estimate: 0.87187
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_8.txt
+	--weir-fst-pop subsample_YCT_8.txt
+	--keep subsample_WCT_8.txt
+	--keep subsample_YCT_8.txt
+	--out fst_WCTvsYCT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55602
+Weir and Cockerham weighted Fst estimate: 0.87583
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_8.txt
+	--freq
+	--out freq_RBT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_8.txt
+	--freq
+	--out freq_WCT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_8.txt
+	--freq
+	--out freq_YCT_8
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+=== Replicate 15 ===
+=== Replicate 15 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_15.txt
+	--weir-fst-pop subsample_WCT_15.txt
+	--keep subsample_RBT_15.txt
+	--keep subsample_WCT_15.txt
+	--out fst_RBTvsWCT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48301
+Weir and Cockerham weighted Fst estimate: 0.86257
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_15.txt
+	--weir-fst-pop subsample_YCT_15.txt
+	--keep subsample_RBT_15.txt
+	--keep subsample_YCT_15.txt
+	--out fst_RBTvsYCT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.50219
+Weir and Cockerham weighted Fst estimate: 0.88392
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_15.txt
+	--weir-fst-pop subsample_YCT_15.txt
+	--keep subsample_WCT_15.txt
+	--keep subsample_YCT_15.txt
+	--out fst_WCTvsYCT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54849
+Weir and Cockerham weighted Fst estimate: 0.87488
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_15.txt
+	--freq
+	--out freq_RBT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_15.txt
+	--freq
+	--out freq_WCT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_15.txt
+	--freq
+	--out freq_YCT_15
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+=== Replicate 11 ===
+=== Replicate 11 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_11.txt
+	--weir-fst-pop subsample_WCT_11.txt
+	--keep subsample_RBT_11.txt
+	--keep subsample_WCT_11.txt
+	--out fst_RBTvsWCT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45727
+Weir and Cockerham weighted Fst estimate: 0.85462
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_11.txt
+	--weir-fst-pop subsample_YCT_11.txt
+	--keep subsample_RBT_11.txt
+	--keep subsample_YCT_11.txt
+	--out fst_RBTvsYCT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47352
+Weir and Cockerham weighted Fst estimate: 0.87628
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_11.txt
+	--weir-fst-pop subsample_YCT_11.txt
+	--keep subsample_WCT_11.txt
+	--keep subsample_YCT_11.txt
+	--out fst_WCTvsYCT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55301
+Weir and Cockerham weighted Fst estimate: 0.87412
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_11.txt
+	--freq
+	--out freq_RBT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_11.txt
+	--freq
+	--out freq_WCT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_11.txt
+	--freq
+	--out freq_YCT_11
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 14 ===
+=== Replicate 14 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_14.txt
+	--weir-fst-pop subsample_WCT_14.txt
+	--keep subsample_RBT_14.txt
+	--keep subsample_WCT_14.txt
+	--out fst_RBTvsWCT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46723
+Weir and Cockerham weighted Fst estimate: 0.85341
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 164.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_14.txt
+	--weir-fst-pop subsample_YCT_14.txt
+	--keep subsample_RBT_14.txt
+	--keep subsample_YCT_14.txt
+	--out fst_RBTvsYCT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48297
+Weir and Cockerham weighted Fst estimate: 0.87579
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_14.txt
+	--weir-fst-pop subsample_YCT_14.txt
+	--keep subsample_WCT_14.txt
+	--keep subsample_YCT_14.txt
+	--out fst_WCTvsYCT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55177
+Weir and Cockerham weighted Fst estimate: 0.87419
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_14.txt
+	--freq
+	--out freq_RBT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_14.txt
+	--freq
+	--out freq_WCT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_14.txt
+	--freq
+	--out freq_YCT_14
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 7 ===
+=== Replicate 7 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_7.txt
+	--weir-fst-pop subsample_WCT_7.txt
+	--keep subsample_RBT_7.txt
+	--keep subsample_WCT_7.txt
+	--out fst_RBTvsWCT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45642
+Weir and Cockerham weighted Fst estimate: 0.85143
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 164.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_7.txt
+	--weir-fst-pop subsample_YCT_7.txt
+	--keep subsample_RBT_7.txt
+	--keep subsample_YCT_7.txt
+	--out fst_RBTvsYCT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47329
+Weir and Cockerham weighted Fst estimate: 0.87367
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_7.txt
+	--weir-fst-pop subsample_YCT_7.txt
+	--keep subsample_WCT_7.txt
+	--keep subsample_YCT_7.txt
+	--out fst_WCTvsYCT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.56012
+Weir and Cockerham weighted Fst estimate: 0.87441
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_7.txt
+	--freq
+	--out freq_RBT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_7.txt
+	--freq
+	--out freq_WCT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_7.txt
+	--freq
+	--out freq_YCT_7
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 17 ===
+=== Replicate 17 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_17.txt
+	--weir-fst-pop subsample_WCT_17.txt
+	--keep subsample_RBT_17.txt
+	--keep subsample_WCT_17.txt
+	--out fst_RBTvsWCT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47057
+Weir and Cockerham weighted Fst estimate: 0.85828
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_17.txt
+	--weir-fst-pop subsample_YCT_17.txt
+	--keep subsample_RBT_17.txt
+	--keep subsample_YCT_17.txt
+	--out fst_RBTvsYCT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48566
+Weir and Cockerham weighted Fst estimate: 0.87888
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 163.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_17.txt
+	--weir-fst-pop subsample_YCT_17.txt
+	--keep subsample_WCT_17.txt
+	--keep subsample_YCT_17.txt
+	--out fst_WCTvsYCT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.56074
+Weir and Cockerham weighted Fst estimate: 0.87597
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_17.txt
+	--freq
+	--out freq_RBT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_17.txt
+	--freq
+	--out freq_WCT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_17.txt
+	--freq
+	--out freq_YCT_17
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+=== Replicate 18 ===
+=== Replicate 18 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_18.txt
+	--weir-fst-pop subsample_WCT_18.txt
+	--keep subsample_RBT_18.txt
+	--keep subsample_WCT_18.txt
+	--out fst_RBTvsWCT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45282
+Weir and Cockerham weighted Fst estimate: 0.852
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 160.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_18.txt
+	--weir-fst-pop subsample_YCT_18.txt
+	--keep subsample_RBT_18.txt
+	--keep subsample_YCT_18.txt
+	--out fst_RBTvsYCT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47036
+Weir and Cockerham weighted Fst estimate: 0.87376
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_18.txt
+	--weir-fst-pop subsample_YCT_18.txt
+	--keep subsample_WCT_18.txt
+	--keep subsample_YCT_18.txt
+	--out fst_WCTvsYCT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.5478
+Weir and Cockerham weighted Fst estimate: 0.87422
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 163.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_18.txt
+	--freq
+	--out freq_RBT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_18.txt
+	--freq
+	--out freq_WCT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_18.txt
+	--freq
+	--out freq_YCT_18
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+=== Replicate 9 ===
+=== Replicate 9 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_9.txt
+	--weir-fst-pop subsample_WCT_9.txt
+	--keep subsample_RBT_9.txt
+	--keep subsample_WCT_9.txt
+	--out fst_RBTvsWCT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45704
+Weir and Cockerham weighted Fst estimate: 0.84847
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_9.txt
+	--weir-fst-pop subsample_YCT_9.txt
+	--keep subsample_RBT_9.txt
+	--keep subsample_YCT_9.txt
+	--out fst_RBTvsYCT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.4741
+Weir and Cockerham weighted Fst estimate: 0.87029
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_9.txt
+	--weir-fst-pop subsample_YCT_9.txt
+	--keep subsample_WCT_9.txt
+	--keep subsample_YCT_9.txt
+	--out fst_WCTvsYCT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55396
+Weir and Cockerham weighted Fst estimate: 0.87456
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_9.txt
+	--freq
+	--out freq_RBT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_9.txt
+	--freq
+	--out freq_WCT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_9.txt
+	--freq
+	--out freq_YCT_9
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+=== Replicate 6 ===
+=== Replicate 6 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_6.txt
+	--weir-fst-pop subsample_WCT_6.txt
+	--keep subsample_RBT_6.txt
+	--keep subsample_WCT_6.txt
+	--out fst_RBTvsWCT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45133
+Weir and Cockerham weighted Fst estimate: 0.849
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_6.txt
+	--weir-fst-pop subsample_YCT_6.txt
+	--keep subsample_RBT_6.txt
+	--keep subsample_YCT_6.txt
+	--out fst_RBTvsYCT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46854
+Weir and Cockerham weighted Fst estimate: 0.87062
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 164.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_6.txt
+	--weir-fst-pop subsample_YCT_6.txt
+	--keep subsample_WCT_6.txt
+	--keep subsample_YCT_6.txt
+	--out fst_WCTvsYCT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54919
+Weir and Cockerham weighted Fst estimate: 0.87512
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_6.txt
+	--freq
+	--out freq_RBT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_6.txt
+	--freq
+	--out freq_WCT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_6.txt
+	--freq
+	--out freq_YCT_6
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+=== Replicate 3 ===
+=== Replicate 3 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_3.txt
+	--weir-fst-pop subsample_WCT_3.txt
+	--keep subsample_RBT_3.txt
+	--keep subsample_WCT_3.txt
+	--out fst_RBTvsWCT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45656
+Weir and Cockerham weighted Fst estimate: 0.84962
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_3.txt
+	--weir-fst-pop subsample_YCT_3.txt
+	--keep subsample_RBT_3.txt
+	--keep subsample_YCT_3.txt
+	--out fst_RBTvsYCT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47322
+Weir and Cockerham weighted Fst estimate: 0.87113
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 163.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_3.txt
+	--weir-fst-pop subsample_YCT_3.txt
+	--keep subsample_WCT_3.txt
+	--keep subsample_YCT_3.txt
+	--out fst_WCTvsYCT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.5528
+Weir and Cockerham weighted Fst estimate: 0.87501
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_3.txt
+	--freq
+	--out freq_RBT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_3.txt
+	--freq
+	--out freq_WCT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_3.txt
+	--freq
+	--out freq_YCT_3
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+=== Replicate 13 ===
+=== Replicate 13 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_13.txt
+	--weir-fst-pop subsample_WCT_13.txt
+	--keep subsample_RBT_13.txt
+	--keep subsample_WCT_13.txt
+	--out fst_RBTvsWCT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.4425
+Weir and Cockerham weighted Fst estimate: 0.84556
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 167.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_13.txt
+	--weir-fst-pop subsample_YCT_13.txt
+	--keep subsample_RBT_13.txt
+	--keep subsample_YCT_13.txt
+	--out fst_RBTvsYCT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.45916
+Weir and Cockerham weighted Fst estimate: 0.86847
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 161.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_13.txt
+	--weir-fst-pop subsample_YCT_13.txt
+	--keep subsample_WCT_13.txt
+	--keep subsample_YCT_13.txt
+	--out fst_WCTvsYCT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55102
+Weir and Cockerham weighted Fst estimate: 0.87332
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_13.txt
+	--freq
+	--out freq_RBT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_13.txt
+	--freq
+	--out freq_WCT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_13.txt
+	--freq
+	--out freq_YCT_13
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+=== Replicate 26 ===
+=== Replicate 26 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_26.txt
+	--weir-fst-pop subsample_WCT_26.txt
+	--keep subsample_RBT_26.txt
+	--keep subsample_WCT_26.txt
+	--out fst_RBTvsWCT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46756
+Weir and Cockerham weighted Fst estimate: 0.85791
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_26.txt
+	--weir-fst-pop subsample_YCT_26.txt
+	--keep subsample_RBT_26.txt
+	--keep subsample_YCT_26.txt
+	--out fst_RBTvsYCT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48478
+Weir and Cockerham weighted Fst estimate: 0.87885
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_26.txt
+	--weir-fst-pop subsample_YCT_26.txt
+	--keep subsample_WCT_26.txt
+	--keep subsample_YCT_26.txt
+	--out fst_WCTvsYCT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55618
+Weir and Cockerham weighted Fst estimate: 0.87542
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_26.txt
+	--freq
+	--out freq_RBT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_26.txt
+	--freq
+	--out freq_WCT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_26.txt
+	--freq
+	--out freq_YCT_26
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+=== Replicate 25 ===
+=== Replicate 25 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_25.txt
+	--weir-fst-pop subsample_WCT_25.txt
+	--keep subsample_RBT_25.txt
+	--keep subsample_WCT_25.txt
+	--out fst_RBTvsWCT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.42867
+Weir and Cockerham weighted Fst estimate: 0.84159
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_25.txt
+	--weir-fst-pop subsample_YCT_25.txt
+	--keep subsample_RBT_25.txt
+	--keep subsample_YCT_25.txt
+	--out fst_RBTvsYCT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44485
+Weir and Cockerham weighted Fst estimate: 0.86367
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_25.txt
+	--weir-fst-pop subsample_YCT_25.txt
+	--keep subsample_WCT_25.txt
+	--keep subsample_YCT_25.txt
+	--out fst_WCTvsYCT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54981
+Weir and Cockerham weighted Fst estimate: 0.8744
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 156.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_25.txt
+	--freq
+	--out freq_RBT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_25.txt
+	--freq
+	--out freq_WCT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_25.txt
+	--freq
+	--out freq_YCT_25
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+=== Replicate 30 ===
+=== Replicate 30 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_30.txt
+	--weir-fst-pop subsample_WCT_30.txt
+	--keep subsample_RBT_30.txt
+	--keep subsample_WCT_30.txt
+	--out fst_RBTvsWCT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.4625
+Weir and Cockerham weighted Fst estimate: 0.85651
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_30.txt
+	--weir-fst-pop subsample_YCT_30.txt
+	--keep subsample_RBT_30.txt
+	--keep subsample_YCT_30.txt
+	--out fst_RBTvsYCT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.47772
+Weir and Cockerham weighted Fst estimate: 0.87755
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_30.txt
+	--weir-fst-pop subsample_YCT_30.txt
+	--keep subsample_WCT_30.txt
+	--keep subsample_YCT_30.txt
+	--out fst_WCTvsYCT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55794
+Weir and Cockerham weighted Fst estimate: 0.87533
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_30.txt
+	--freq
+	--out freq_RBT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 151.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_30.txt
+	--freq
+	--out freq_WCT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 151.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_30.txt
+	--freq
+	--out freq_YCT_30
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 21 ===
+=== Replicate 21 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_21.txt
+	--weir-fst-pop subsample_WCT_21.txt
+	--keep subsample_RBT_21.txt
+	--keep subsample_WCT_21.txt
+	--out fst_RBTvsWCT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.4692
+Weir and Cockerham weighted Fst estimate: 0.85526
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 162.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_21.txt
+	--weir-fst-pop subsample_YCT_21.txt
+	--keep subsample_RBT_21.txt
+	--keep subsample_YCT_21.txt
+	--out fst_RBTvsYCT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48894
+Weir and Cockerham weighted Fst estimate: 0.87656
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_21.txt
+	--weir-fst-pop subsample_YCT_21.txt
+	--keep subsample_WCT_21.txt
+	--keep subsample_YCT_21.txt
+	--out fst_WCTvsYCT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54132
+Weir and Cockerham weighted Fst estimate: 0.87472
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_21.txt
+	--freq
+	--out freq_RBT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_21.txt
+	--freq
+	--out freq_WCT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_21.txt
+	--freq
+	--out freq_YCT_21
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 151.00 seconds
+=== Replicate 23 ===
+=== Replicate 23 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_23.txt
+	--weir-fst-pop subsample_WCT_23.txt
+	--keep subsample_RBT_23.txt
+	--keep subsample_WCT_23.txt
+	--out fst_RBTvsWCT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46363
+Weir and Cockerham weighted Fst estimate: 0.85776
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_23.txt
+	--weir-fst-pop subsample_YCT_23.txt
+	--keep subsample_RBT_23.txt
+	--keep subsample_YCT_23.txt
+	--out fst_RBTvsYCT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48043
+Weir and Cockerham weighted Fst estimate: 0.87817
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_23.txt
+	--weir-fst-pop subsample_YCT_23.txt
+	--keep subsample_WCT_23.txt
+	--keep subsample_YCT_23.txt
+	--out fst_WCTvsYCT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55642
+Weir and Cockerham weighted Fst estimate: 0.87624
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_23.txt
+	--freq
+	--out freq_RBT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_23.txt
+	--freq
+	--out freq_WCT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_23.txt
+	--freq
+	--out freq_YCT_23
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+=== Replicate 29 ===
+=== Replicate 29 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_29.txt
+	--weir-fst-pop subsample_WCT_29.txt
+	--keep subsample_RBT_29.txt
+	--keep subsample_WCT_29.txt
+	--out fst_RBTvsWCT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46881
+Weir and Cockerham weighted Fst estimate: 0.8568
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_29.txt
+	--weir-fst-pop subsample_YCT_29.txt
+	--keep subsample_RBT_29.txt
+	--keep subsample_YCT_29.txt
+	--out fst_RBTvsYCT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48323
+Weir and Cockerham weighted Fst estimate: 0.87727
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_29.txt
+	--weir-fst-pop subsample_YCT_29.txt
+	--keep subsample_WCT_29.txt
+	--keep subsample_YCT_29.txt
+	--out fst_WCTvsYCT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.56159
+Weir and Cockerham weighted Fst estimate: 0.87627
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_29.txt
+	--freq
+	--out freq_RBT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_29.txt
+	--freq
+	--out freq_WCT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_29.txt
+	--freq
+	--out freq_YCT_29
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+=== Replicate 27 ===
+=== Replicate 27 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_27.txt
+	--weir-fst-pop subsample_WCT_27.txt
+	--keep subsample_RBT_27.txt
+	--keep subsample_WCT_27.txt
+	--out fst_RBTvsWCT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44992
+Weir and Cockerham weighted Fst estimate: 0.8485
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_27.txt
+	--weir-fst-pop subsample_YCT_27.txt
+	--keep subsample_RBT_27.txt
+	--keep subsample_YCT_27.txt
+	--out fst_RBTvsYCT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46592
+Weir and Cockerham weighted Fst estimate: 0.86977
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_27.txt
+	--weir-fst-pop subsample_YCT_27.txt
+	--keep subsample_WCT_27.txt
+	--keep subsample_YCT_27.txt
+	--out fst_WCTvsYCT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55673
+Weir and Cockerham weighted Fst estimate: 0.87534
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_27.txt
+	--freq
+	--out freq_RBT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_27.txt
+	--freq
+	--out freq_WCT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_27.txt
+	--freq
+	--out freq_YCT_27
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+=== Replicate 28 ===
+=== Replicate 28 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_28.txt
+	--weir-fst-pop subsample_WCT_28.txt
+	--keep subsample_RBT_28.txt
+	--keep subsample_WCT_28.txt
+	--out fst_RBTvsWCT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44661
+Weir and Cockerham weighted Fst estimate: 0.84873
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_28.txt
+	--weir-fst-pop subsample_YCT_28.txt
+	--keep subsample_RBT_28.txt
+	--keep subsample_YCT_28.txt
+	--out fst_RBTvsYCT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46142
+Weir and Cockerham weighted Fst estimate: 0.86932
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_28.txt
+	--weir-fst-pop subsample_YCT_28.txt
+	--keep subsample_WCT_28.txt
+	--keep subsample_YCT_28.txt
+	--out fst_WCTvsYCT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55444
+Weir and Cockerham weighted Fst estimate: 0.87654
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_28.txt
+	--freq
+	--out freq_RBT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_28.txt
+	--freq
+	--out freq_WCT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 154.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_28.txt
+	--freq
+	--out freq_YCT_28
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 151.00 seconds
+=== Replicate 24 ===
+=== Replicate 24 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_24.txt
+	--weir-fst-pop subsample_WCT_24.txt
+	--keep subsample_RBT_24.txt
+	--keep subsample_WCT_24.txt
+	--out fst_RBTvsWCT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.46741
+Weir and Cockerham weighted Fst estimate: 0.85613
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_24.txt
+	--weir-fst-pop subsample_YCT_24.txt
+	--keep subsample_RBT_24.txt
+	--keep subsample_YCT_24.txt
+	--out fst_RBTvsYCT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.48529
+Weir and Cockerham weighted Fst estimate: 0.87771
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_24.txt
+	--weir-fst-pop subsample_YCT_24.txt
+	--keep subsample_WCT_24.txt
+	--keep subsample_YCT_24.txt
+	--out fst_WCTvsYCT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.54191
+Weir and Cockerham weighted Fst estimate: 0.87437
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 158.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_24.txt
+	--freq
+	--out freq_RBT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_24.txt
+	--freq
+	--out freq_WCT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_24.txt
+	--freq
+	--out freq_YCT_24
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+=== Replicate 22 ===
+=== Replicate 22 completed ===
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_22.txt
+	--weir-fst-pop subsample_WCT_22.txt
+	--keep subsample_RBT_22.txt
+	--keep subsample_WCT_22.txt
+	--out fst_RBTvsWCT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.43214
+Weir and Cockerham weighted Fst estimate: 0.84187
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_RBT_22.txt
+	--weir-fst-pop subsample_YCT_22.txt
+	--keep subsample_RBT_22.txt
+	--keep subsample_YCT_22.txt
+	--out fst_RBTvsYCT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.44716
+Weir and Cockerham weighted Fst estimate: 0.86435
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 157.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--weir-fst-pop subsample_WCT_22.txt
+	--weir-fst-pop subsample_YCT_22.txt
+	--keep subsample_WCT_22.txt
+	--keep subsample_YCT_22.txt
+	--out fst_WCTvsYCT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 102 out of 3617 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.5506
+Weir and Cockerham weighted Fst estimate: 0.8742
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 159.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_RBT_22.txt
+	--freq
+	--out freq_RBT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 153.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_WCT_22.txt
+	--freq
+	--out freq_WCT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 155.00 seconds
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS/01_global_ancestry/02_Concat_VCF/03_remove_dups/all_RADCap_10x.filtered.noCCT.nodups.recode.vcf.gz
+	--keep subsample_YCT_22.txt
+	--freq
+	--out freq_YCT_22
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 51 out of 3617 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 152.00 seconds
