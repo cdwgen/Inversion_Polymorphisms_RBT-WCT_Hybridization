@@ -1,0 +1,46 @@
+#!/bin/bash
+#SBATCH --job-name=bwa_rad
+#SBATCH --output=/mnt/ceph/well0766/UMT_Redband/01_data/04_IRT11_RAW_DATA/BWA_logs/bwa_%A_%a.out
+#SBATCH --error=/mnt/ceph/well0766/UMT_Redband/01_data/04_IRT11_RAW_DATA/BWA_logs/bwa_%A_%a.err
+#SBATCH --array=1-14
+#SBATCH -c 4
+#SBATCH --mem=12G
+#SBATCH -t 1-00:00:00
+
+# Load modules
+module load bwa/0.7.17 samtools
+
+cd /mnt/ceph/well0766/UMT_Redband/01_data/04_IRT11_RAW_DATA || exit
+
+INPUT_DIR="05_demultiplexed"
+OUTPUT_DIR="06_raw_bams"
+REFERENCE="/mnt/ceph/well0766/UMT_Redband/01_data/00_Reference_Genome/norm_IRT_061722.fa"
+
+mkdir -p "$OUTPUT_DIR"
+
+# Build plate list
+PLATE_LIST=$(ls -d ${INPUT_DIR}/* | sort)
+
+# Select plate for this array task
+PLATE=$(echo "$PLATE_LIST" | sed -n "${SLURM_ARRAY_TASK_ID}p")
+
+echo "Processing plate: $PLATE"
+
+# Loop through samples in this plate, align each with BWA mem
+find "$PLATE" -name "*.1.fq.gz" ! -name "*.rem.*" | while read fq1
+do
+
+    filename=$(basename "$fq1")
+    sample=${filename%%.1.fq.gz}
+    fq2="${fq1%.1.fq.gz}.2.fq.gz"
+
+    echo "Mapping sample: $sample"
+
+    bwa mem -t $SLURM_CPUS_PER_TASK -v 1 -T 30 -h 5 -M \
+        -R "@RG\tID:${sample}\tSM:${sample}\tPL:ILLUMINA\tLB:LB1" \
+        "$REFERENCE" \
+        "$fq1" \
+        "$fq2" | \
+    samtools view -Sb - > "${OUTPUT_DIR}/${sample}.pe.bam"
+
+done
