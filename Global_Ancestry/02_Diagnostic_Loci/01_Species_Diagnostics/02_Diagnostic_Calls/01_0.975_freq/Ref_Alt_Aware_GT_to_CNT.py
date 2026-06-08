@@ -42,9 +42,9 @@ for set_name in sets:
     # Function to recode genotype based on diagnostic allele
     def gt_to_diag_score(gt, diag_allele):
         if gt in {"0/0", "0|0"}:
-            return 0 if diag_allele == "ref" else 2
+            return 2 if diag_allele == "ref" else 0
         elif gt in {"1/1", "1|1"}:
-            return 0 if diag_allele == "alt" else 2
+            return 2 if diag_allele == "alt" else 0
         elif gt in {"0/1", "1/0", "0|1", "1|0"}:
             return 1
         else:
@@ -66,7 +66,7 @@ for set_name in sets:
     df.reset_index(inplace=True)
     df.to_csv(os.path.join(output_dir, f"{set_name}_counts.tsv"), sep="\t", index=False)
 
-    # === NEW: Calculate diagnostic proportions ===
+    # Calculate diagnostic proportions
     df = df.set_index("Locus")  # reset index for processing
     proportions = {}
     for sample in df.columns:
