@@ -1,0 +1,15 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf Omy20_RBT.recode.vcf
+	--keep Omy20_A.txt
+	--freq
+	--out Omy20_A
+
+Keeping individuals in 'keep' list
+After filtering, kept 13 out of 2317 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 1420 out of a possible 1420 Sites
+Run Time = 0.00 seconds

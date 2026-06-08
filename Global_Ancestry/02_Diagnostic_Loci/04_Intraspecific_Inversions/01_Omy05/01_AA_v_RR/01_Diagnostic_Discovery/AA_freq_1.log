@@ -1,0 +1,15 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /mnt/ceph/well0766/UMT_Redband/05_global_ancestry/01_STACKS/01_PCA/05_Intraspecific_Inversions/00_input_vcfs/Omy05_inversion1.recode.vcf
+	--keep AA_subset.txt
+	--freq
+	--out AA_freq
+
+Keeping individuals in 'keep' list
+After filtering, kept 63 out of 586 Individuals
+Outputting Frequency Statistics...
+After filtering, kept 4988 out of a possible 4988 Sites
+Run Time = 3.00 seconds
