@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf subset.recode.vcf.gz
+	--keep YCT.tsv
+	--out pi_YCT
+	--window-pi 500000
+	--window-pi-step 500000
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 31 out of 155 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 6.00 seconds

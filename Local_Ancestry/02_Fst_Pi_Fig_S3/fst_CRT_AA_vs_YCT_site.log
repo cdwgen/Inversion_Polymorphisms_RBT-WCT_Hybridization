@@ -1,0 +1,20 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf subset.recode.vcf.gz
+	--weir-fst-pop CRT_AA.tsv
+	--weir-fst-pop YCT.tsv
+	--keep CRT_AA.tsv
+	--keep YCT.tsv
+	--out fst_CRT_AA_vs_YCT_site
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 62 out of 155 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.55526
+Weir and Cockerham weighted Fst estimate: 0.86877
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 6.00 seconds

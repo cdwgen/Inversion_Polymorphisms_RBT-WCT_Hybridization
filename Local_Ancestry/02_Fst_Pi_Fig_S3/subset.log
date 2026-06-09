@@ -1,0 +1,17 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /mnt/ceph/well0766/UMT_Redband/04_vcf/01_STACKS_2025/01_global_ancestry/02_Concat_VCF/02_remove_CCT/all_RADCap_10x.filtered.noCCT.recode.vcf.gz
+	--keep all_samples.txt
+	--recode-INFO-all
+	--out subset
+	--recode
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 155 out of 3717 Individuals
+Outputting VCF file...
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 297.00 seconds

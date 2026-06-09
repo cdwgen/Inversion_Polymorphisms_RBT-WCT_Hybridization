@@ -1,0 +1,51 @@
+#!/bin/bash
+#SBATCH --job-name=elai_combo
+#SBATCH --output=/mnt/ceph/well0766/UMT_Redband/06_local_ancestry/01_ELAI/01_all_chrom_unphased/elai_logs/elai_%A_%a.out
+#SBATCH --error=/mnt/ceph/well0766/UMT_Redband/06_local_ancestry/01_ELAI/01_all_chrom_unphased/elai_logs/elai_%A_%a.err
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=well0766@vandals.uidaho.edu
+#SBATCH --array=1-160%64        # 5 generations × 32 chromosomes (Omy01–Omy28, Omy30–Omy32, OmyY)
+#SBATCH -c 1
+#SBATCH --mem=100G
+#SBATCH -t 7-00:00
+
+# Allow many open files
+ulimit -n 10000
+
+# --- Paths ---
+ELAI_BIN="/mnt/ceph/well0766/UMT_Redband/06_local_ancestry/01_ELAI/01_all_chrom_unphased/elai-lin"
+BASE="/mnt/ceph/well0766/UMT_Redband/06_local_ancestry/01_ELAI/01_all_chrom_unphased/01_Input_Files"
+OUT_BASE="/mnt/ceph/well0766/UMT_Redband/06_local_ancestry/01_ELAI/01_all_chrom_unphased/02_Results"
+
+# --- Parameters ---
+GEN_VALUES=(10 20 30 40 50)   # generations
+CHR_LIST=( $(seq -f "Omy%02g" 1 28) $(seq -f "Omy%02g" 30 32) OmyY )  # skip Omy29
+
+# Decode job array index into generation + chromosome
+NUM_GEN=${#GEN_VALUES[@]}
+NUM_CHR=${#CHR_LIST[@]}
+TASK_INDEX=$((SLURM_ARRAY_TASK_ID - 1))
+GEN_INDEX=$((TASK_INDEX / NUM_CHR))
+CHR_INDEX=$((TASK_INDEX % NUM_CHR))
+
+GENERATIONS=${GEN_VALUES[$GEN_INDEX]}
+CHR_NAME=${CHR_LIST[$CHR_INDEX]}
+
+# Output directory for this run
+OUT_DIR="${OUT_BASE}/${GENERATIONS}_Generations/${CHR_NAME}"
+mkdir -p "$OUT_DIR"
+cd "$OUT_DIR"
+
+# Random seed
+SEED=$(( (SLURM_JOB_ID + SLURM_ARRAY_TASK_ID + RANDOM) % 1000000 ))
+
+# --- Run ELAI ---
+"$ELAI_BIN" \
+  -g "${BASE}/CRT_AA/genos/${CHR_NAME}.txt" -p 10 \
+  -g "${BASE}/CRT_RR/genos/${CHR_NAME}.txt" -p 11 \
+  -g "${BASE}/IRT/genos/${CHR_NAME}.txt" -p 12 \
+  -g "${BASE}/WCT/genos/${CHR_NAME}.txt" -p 13 \
+  -g "${BASE}/YCT/genos/${CHR_NAME}.txt" -p 14 \
+  -g "${BASE}/ADMIX/genos/${CHR_NAME}.txt" -p 1 \
+  -pos "${BASE}/ADMIX/loci/${CHR_NAME}.txt" \
+  -o "${CHR_NAME}" -s 20 -C 5 -c 20 -mg ${GENERATIONS} -R ${SEED} --exclude-nopos
