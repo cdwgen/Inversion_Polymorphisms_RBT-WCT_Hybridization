@@ -1,0 +1,52 @@
+========== Chi-square on counts ==========
+
+	Pearson's Chi-squared test with simulated p-value (based on 10000 replicates)
+
+data:  geno_matrix
+X-squared = 444.94, df = NA, p-value = 9.999e-05
+
+
+========== Dirichlet regression ==========
+
+Call:
+DirichReg(formula = df_dir ~ Habitat_Display, data = df_clean)
+
+Standardized Residuals:
+            Min       1Q   Median       3Q     Max
+RBT_AA  -0.8785  -0.6092  -0.5382  -0.5382  3.6556
+RBT_AR  -1.1554  -0.6226  -0.6226   0.0140  7.6570
+RBT_RR  -5.5605   0.3346   0.8552   0.8552  1.6006
+
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 1: RBT_AA
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                 -1.38348    0.15892  -8.705   <2e-16 ***
+Habitat_DisplayValley Floor  0.79849    0.53666   1.488    0.137    
+Habitat_DisplayRiver         0.02073    0.30360   0.068    0.946    
+Habitat_DisplayLake          0.19729    0.36663   0.538    0.590    
+Habitat_DisplayReservoir    -0.16613    0.37642  -0.441    0.659    
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 2: RBT_AR
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                  -1.1408     0.1615  -7.062 1.64e-12 ***
+Habitat_DisplayValley Floor   1.5712     0.5695   2.759   0.0058 ** 
+Habitat_DisplayRiver          0.1024     0.3108   0.329   0.7419    
+Habitat_DisplayLake           0.1276     0.3723   0.343   0.7318    
+Habitat_DisplayReservoir      0.3165     0.3966   0.798   0.4248    
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 3: RBT_RR
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                   1.2546     0.2207   5.685 1.31e-08 ***
+Habitat_DisplayValley Floor  -0.6736     0.5937  -1.135 0.256522    
+Habitat_DisplayRiver         -1.2662     0.3806  -3.327 0.000879 ***
+Habitat_DisplayLake          -1.4336     0.4371  -3.280 0.001039 ** 
+Habitat_DisplayReservoir     -1.2885     0.4661  -2.765 0.005695 ** 
+------------------------------------------------------------------
+Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log-likelihood: 317.2 on 15 df (61 BFGS + 1 NR Iterations)
+AIC: -604.4, BIC: -568.5
+Number of Observations: 81
+Link: Log
+Parametrization: common
+

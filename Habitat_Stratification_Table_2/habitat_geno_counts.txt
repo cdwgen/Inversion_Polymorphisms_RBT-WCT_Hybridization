@@ -1,0 +1,6 @@
+Habitat_Display	AA	AR	RR	Total_N
+Tributary	0	37	1612	1649
+Valley Floor	7	17	35	59
+River	10	31	59	100
+Lake	25	37	169	231
+Reservoir	1	11	74	86
