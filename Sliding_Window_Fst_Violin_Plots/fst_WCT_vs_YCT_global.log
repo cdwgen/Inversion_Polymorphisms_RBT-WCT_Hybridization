@@ -1,0 +1,21 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf subset.recode.vcf.gz
+	--fst-window-size 1000000000
+	--weir-fst-pop WCT.tsv
+	--weir-fst-pop YCT.tsv
+	--keep WCT.tsv
+	--keep YCT.tsv
+	--out fst_WCT_vs_YCT_global
+
+Using zlib version: 1.2.11
+Keeping individuals in 'keep' list
+After filtering, kept 62 out of 155 Individuals
+Outputting Windowed Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.56872
+Weir and Cockerham weighted Fst estimate: 0.8759
+After filtering, kept 190081 out of a possible 190081 Sites
+Run Time = 6.00 seconds

@@ -1,0 +1,31 @@
+Taxon Pair,Region,FST: Mean ± SD (Median),# Windows,vs Genome: Effect (p),vs Chr05: Effect (p)
+CRT_AA_vs_CRT_RR,Genome-wide,0.063 ± 0.082 (0.053),3352,—,—
+CRT_AA_vs_CRT_RR,Omy05 background,0.081 ± 0.089 (0.078),69,—,—
+CRT_AA_vs_CRT_RR,Inversion,0.509 ± 0.174 (0.496),104,0.99 (<0.001),0.991 (<0.001)
+CRT_AA_vs_IRT,Genome-wide,0.214 ± 0.149 (0.198),3418,—,—
+CRT_AA_vs_IRT,Omy05 background,0.189 ± 0.141 (0.176),70,—,—
+CRT_AA_vs_IRT,Inversion,0.537 ± 0.18 (0.524),104,0.851 (<0.001),0.896 (<0.001)
+CRT_AA_vs_WCT,Genome-wide,0.511 ± 0.204 (0.521),3514,—,—
+CRT_AA_vs_WCT,Omy05 background,0.469 ± 0.168 (0.468),70,—,—
+CRT_AA_vs_WCT,Inversion,0.669 ± 0.201 (0.685),106,0.496 (<0.001),0.648 (<0.001)
+CRT_AA_vs_YCT,Genome-wide,0.555 ± 0.194 (0.555),3500,—,—
+CRT_AA_vs_YCT,Omy05 background,0.508 ± 0.174 (0.496),70,—,—
+CRT_AA_vs_YCT,Inversion,0.712 ± 0.166 (0.717),105,0.524 (<0.001),0.656 (<0.001)
+CRT_RR_vs_IRT,Genome-wide,0.214 ± 0.151 (0.2),3413,—,—
+CRT_RR_vs_IRT,Omy05 background,0.194 ± 0.111 (0.182),67,—,—
+CRT_RR_vs_IRT,Inversion,0.265 ± 0.164 (0.236),95,0.176 (0.002),0.243 (0.004)
+CRT_RR_vs_WCT,Genome-wide,0.505 ± 0.202 (0.514),3494,—,—
+CRT_RR_vs_WCT,Omy05 background,0.471 ± 0.166 (0.476),70,—,—
+CRT_RR_vs_WCT,Inversion,0.643 ± 0.21 (0.65),106,0.442 (<0.001),0.565 (<0.001)
+CRT_RR_vs_YCT,Genome-wide,0.548 ± 0.195 (0.548),3482,—,—
+CRT_RR_vs_YCT,Omy05 background,0.503 ± 0.193 (0.506),71,—,—
+CRT_RR_vs_YCT,Inversion,0.702 ± 0.178 (0.706),105,0.485 (<0.001),0.589 (<0.001)
+IRT_vs_WCT,Genome-wide,0.6 ± 0.215 (0.621),3483,—,—
+IRT_vs_WCT,Omy05 background,0.561 ± 0.193 (0.55),70,—,—
+IRT_vs_WCT,Inversion,0.67 ± 0.188 (0.698),106,0.207 (<0.001),0.358 (<0.001)
+IRT_vs_YCT,Genome-wide,0.644 ± 0.205 (0.658),3487,—,—
+IRT_vs_YCT,Omy05 background,0.589 ± 0.222 (0.595),72,—,—
+IRT_vs_YCT,Inversion,0.713 ± 0.188 (0.727),105,0.233 (<0.001),0.399 (<0.001)
+WCT_vs_YCT,Genome-wide,0.577 ± 0.233 (0.586),3432,—,—
+WCT_vs_YCT,Omy05 background,0.537 ± 0.218 (0.543),71,—,—
+WCT_vs_YCT,Inversion,0.606 ± 0.234 (0.635),105,0.097 (0.044),0.235 (0.004)

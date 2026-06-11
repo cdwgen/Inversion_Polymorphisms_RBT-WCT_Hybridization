@@ -1,0 +1,31 @@
+Taxon Pair,Region,Mean FST,Median FST,StDev,# Windows,P (vs Genome),Effect (vs Genome),P (vs Omy05),Effect (vs Omy05)
+CRT_AA_vs_CRT_RR,Genome-wide,0.063,0.053,0.082,3352,—,—,—,—
+CRT_AA_vs_CRT_RR,Omy05 background,0.081,0.078,0.089,69,—,—,—,—
+CRT_AA_vs_CRT_RR,Inversion,0.509,0.496,0.174,104,<0.001,0.99,<0.001,0.991
+CRT_AA_vs_IRT,Genome-wide,0.214,0.198,0.149,3418,—,—,—,—
+CRT_AA_vs_IRT,Omy05 background,0.189,0.176,0.141,70,—,—,—,—
+CRT_AA_vs_IRT,Inversion,0.537,0.524,0.18,104,<0.001,0.851,<0.001,0.896
+CRT_AA_vs_WCT,Genome-wide,0.511,0.521,0.204,3514,—,—,—,—
+CRT_AA_vs_WCT,Omy05 background,0.469,0.468,0.168,70,—,—,—,—
+CRT_AA_vs_WCT,Inversion,0.669,0.685,0.201,106,<0.001,0.496,<0.001,0.648
+CRT_AA_vs_YCT,Genome-wide,0.555,0.555,0.194,3500,—,—,—,—
+CRT_AA_vs_YCT,Omy05 background,0.508,0.496,0.174,70,—,—,—,—
+CRT_AA_vs_YCT,Inversion,0.712,0.717,0.166,105,<0.001,0.524,<0.001,0.656
+CRT_RR_vs_IRT,Genome-wide,0.214,0.2,0.151,3413,—,—,—,—
+CRT_RR_vs_IRT,Omy05 background,0.194,0.182,0.111,67,—,—,—,—
+CRT_RR_vs_IRT,Inversion,0.265,0.236,0.164,95,0.002,0.176,0.004,0.243
+CRT_RR_vs_WCT,Genome-wide,0.505,0.514,0.202,3494,—,—,—,—
+CRT_RR_vs_WCT,Omy05 background,0.471,0.476,0.166,70,—,—,—,—
+CRT_RR_vs_WCT,Inversion,0.643,0.65,0.21,106,<0.001,0.442,<0.001,0.565
+CRT_RR_vs_YCT,Genome-wide,0.548,0.548,0.195,3482,—,—,—,—
+CRT_RR_vs_YCT,Omy05 background,0.503,0.506,0.193,71,—,—,—,—
+CRT_RR_vs_YCT,Inversion,0.702,0.706,0.178,105,<0.001,0.485,<0.001,0.589
+IRT_vs_WCT,Genome-wide,0.6,0.621,0.215,3483,—,—,—,—
+IRT_vs_WCT,Omy05 background,0.561,0.55,0.193,70,—,—,—,—
+IRT_vs_WCT,Inversion,0.67,0.698,0.188,106,<0.001,0.207,<0.001,0.358
+IRT_vs_YCT,Genome-wide,0.644,0.658,0.205,3487,—,—,—,—
+IRT_vs_YCT,Omy05 background,0.589,0.595,0.222,72,—,—,—,—
+IRT_vs_YCT,Inversion,0.713,0.727,0.188,105,<0.001,0.233,<0.001,0.399
+WCT_vs_YCT,Genome-wide,0.577,0.586,0.233,3432,—,—,—,—
+WCT_vs_YCT,Omy05 background,0.537,0.543,0.218,71,—,—,—,—
+WCT_vs_YCT,Inversion,0.606,0.635,0.234,105,0.044,0.097,0.004,0.235
