@@ -46,7 +46,8 @@ chrom_lengths <- read_tsv(chrom_file, col_types = cols()) %>%
 # Load & Clean Background SNPs
 snps_bg <- read_tsv(snp_file, col_names = c("CHROM", "POS"), col_types = "cd") %>%
   mutate(CHROM = ifelse(CHROM == "OmyY", "Omy29", CHROM)) %>%
-  filter(CHROM %in% chrom_lengths$CHROM)
+  filter(CHROM %in% chrom_lengths$CHROM) %>%
+  distinct() # <-- Added to remove duplicate SNPs
 
 # Filter Chromosomes to match SNPs
 chrom_lengths <- chrom_lengths %>% filter(CHROM %in% snps_bg$CHROM)
