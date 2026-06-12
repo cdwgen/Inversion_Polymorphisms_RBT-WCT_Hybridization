@@ -40,14 +40,14 @@ write_tsv(combined, "ancestry_estimate_comparison.tsv")
 # ==== Calculate Statistics ====
 methods <- c("Diagnostics", "ADMIXTURE", "ELAI")
 
-# Summary Stats
+# Summary Stats (FIXED: Diagnostics is now the baseline)
 summary_stats <- combined %>%
   group_by(Ancestry) %>%
   summarise(
     across(all_of(methods),
            list(
-             cor = ~ cor(.x, ADMIXTURE, use = "complete.obs"),
-             rmse = ~ rmse(ADMIXTURE, .x)
+             cor = ~ cor(.x, Diagnostics, use = "complete.obs"),
+             rmse = ~ rmse(Diagnostics, .x)
            ),
            .names = "{.col}_{.fn}"
     ),
